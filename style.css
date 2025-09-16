@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg {
+  background-image: url("./images/bg.jpg");
+  opacity: 0.9;
+  background-size: cover;
+  /* height: 100vh; */
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(71, 66, 66, 0.685);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.center {
+  display: flex;
+}
+.center li {
+  list-style: none;
+}
+.center a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-weight: bold;
+}
+.center a:hover {
+  color: orange;
+  transition: 0.3s;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.right i:hover {
+  color: orange;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.sec-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 550px;
+  background-color: rgba(71, 66, 66, 0.685);
+}
+
+.sec-1 h2 {
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.4rem;
+}
+.sec-1 h1 {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  margin: 20px 0;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn1 {
+  background-color: orange;
+  padding: 10px 20px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn2 {
+  padding: 10px 20px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  background: transparent;
+  border: 2px solid orange;
+}
+.sec-2 {
+  width: 100%;
+  height: 200px;
+  border: 2px solid black;
+  background-color: seashell;
+  display: flex;
+}
+.box1 {
+  width: 33.33%;
+  height: 150px;
+  border: 2px solid black;
+  justify-items: center;
+  align-content: center;
+}
+
+.box2 {
+  width: 33.33%;
+  height: 150px;
+  border: 2px solid black;
+  justify-items: center;
+  align-content: center;
+}
+.box3 {
+  width: 33.33%;
+  height: 150px;
+  border: 2px solid black;
+  justify-items: center;
+  align-content: center;
+}
