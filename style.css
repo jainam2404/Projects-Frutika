@@ -189,35 +189,33 @@
   border: 2px solid black;
   gap: 20px;
   padding: 20px;
+  background-color: #f6f6f6;
 }
-.deal-box-left{
+.deal-box-left {
   width: 40%;
   height: 100%;
-  border: 2px solid black;
 }
-.deal-box-left img{
+.deal-box-left img {
   width: 100%;
   height: 100%;
 }
-.deal-box-right{
-  
+.deal-box-right {
   width: 40%;
   height: 100%;
-  border: 2px solid black; 
-  justify-items: left; 
+  justify-items: left;
   text-align: justify;
 }
-.boxe{
+.boxe {
   display: flex;
   gap: 10px;
   margin-block: 20px;
 }
-.boxx{
+.boxx {
   border: 3px solid orange;
   width: 100px;
   height: 100px;
 }
-.boxx p{
+.boxx p {
   text-align: center;
   margin-top: 20px;
   font-weight: bold;
