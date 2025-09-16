@@ -109,7 +109,6 @@
 }
 .box1 {
   width: 33.33%;
-  height: 150px;
   border: 2px solid black;
   justify-items: center;
   align-content: center;
@@ -117,15 +116,24 @@
 
 .box2 {
   width: 33.33%;
-  height: 150px;
+
   border: 2px solid black;
   justify-items: center;
   align-content: center;
 }
 .box3 {
   width: 33.33%;
-  height: 150px;
   border: 2px solid black;
   justify-items: center;
   align-content: center;
+}
+.product {
+  width: 100%;
+  min-height: 500px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
 }
