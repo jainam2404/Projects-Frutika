@@ -333,3 +333,56 @@ a.video-play-btn {
   width: 40%;
   height: 100%;
 }
+
+.shop-banner {
+  position: relative;
+  background-color: #f5f5f5;
+  background-image: url(./images/img1.jpg);
+  background-size: cover;
+  padding: 110px 0px 115px;
+}
+
+.shop-banner h3 {
+  position: relative;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+
+.shop-banner .sale-percent {
+  position: relative;
+  font-size: 60px;
+  font-weight: 700;
+  color: #F28123;
+  margin-left: 50px;
+}
+
+.shop-banner .sale-percent span {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.1em;
+  color: #051922;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+}
+.shop {
+  background-color: orange;
+  padding: 10px 20px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.shop:hover {
+  background-color: rgb(1, 1, 42);
+  color: orange;
+  transition: 0.3s;
+}
