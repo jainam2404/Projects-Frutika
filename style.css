@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .bg {
   background-image: url("./images/bg.jpg");
   opacity: 0.9;
@@ -10,6 +11,7 @@
   /* height: 100vh; */
   width: 100%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,18 +25,22 @@
   align-items: center;
   gap: 10px;
 }
+
 .center {
   display: flex;
 }
+
 .center li {
   list-style: none;
 }
+
 .center a {
   text-decoration: none;
   color: white;
   margin: 0 10px;
   font-weight: bold;
 }
+
 .center a:hover {
   color: orange;
   transition: 0.3s;
@@ -46,11 +52,13 @@
   gap: 10px;
   color: white;
 }
+
 .right i:hover {
   color: orange;
   transition: 0.3s;
   cursor: pointer;
 }
+
 .sec-1 {
   display: flex;
   justify-content: center;
@@ -66,17 +74,20 @@
   text-align: center;
   letter-spacing: 0.4rem;
 }
+
 .sec-1 h1 {
   color: white;
   font-size: 80px;
   text-align: center;
   margin: 20px 0;
 }
+
 .btn {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
+
 .btn1 {
   background-color: orange;
   padding: 10px 20px;
@@ -88,6 +99,7 @@
   cursor: pointer;
   margin-top: 20px;
 }
+
 .btn2 {
   padding: 10px 20px;
   height: 40px;
@@ -100,6 +112,7 @@
   background: transparent;
   border: 2px solid orange;
 }
+
 .sec-2 {
   width: 100%;
   height: 200px;
@@ -107,6 +120,7 @@
   background-color: seashell;
   display: flex;
 }
+
 .box1 {
   width: 33.33%;
   border: 2px solid black;
@@ -121,12 +135,14 @@
   justify-items: center;
   align-content: center;
 }
+
 .box3 {
   width: 33.33%;
   border: 2px solid black;
   justify-items: center;
   align-content: center;
 }
+
 .product {
   width: 100%;
   height: 700px;
@@ -137,13 +153,16 @@
   gap: 20px;
   padding: 20px;
 }
+
 .product h1 {
   margin: 20px 0;
   color: orange;
 }
+
 .product p {
   margin-bottom: 20px;
 }
+
 .card {
   display: inline-block;
   width: 300px;
@@ -151,19 +170,23 @@
   margin: 10px;
   text-align: center;
 }
+
 .card p {
   margin: 10px;
   font-weight: bold;
 }
+
 .card:hover {
   cursor: pointer;
   box-shadow: 5px 5px 15px grey;
   transition: 0.3s;
 }
+
 .card img {
   width: 100%;
   height: 250px;
 }
+
 .btn-cart {
   background-color: orange;
   padding: 10px 20px;
@@ -175,11 +198,13 @@
   cursor: pointer;
   margin-top: 10px;
 }
+
 .btn-cart:hover {
   background-color: rgb(1, 1, 42);
   color: orange;
   transition: 0.3s;
 }
+
 .deal {
   width: 100%;
   height: 500px;
@@ -191,10 +216,12 @@
   padding: 20px;
   background-color: #f6f6f6;
 }
+
 .deal-box-left {
   width: 40%;
   height: 100%;
 }
+
 .cricle {
   position: absolute;
   width: 150px;
@@ -210,36 +237,43 @@
   margin-top: -470px;
   margin-left: -45px;
 }
+
 .deal-box-left img {
   width: 100%;
   height: 100%;
 }
+
 .deal-box-right {
   width: 40%;
   height: 100%;
   justify-items: left;
   text-align: justify;
 }
+
 .boxe {
   display: flex;
   gap: 10px;
   margin-block: 20px;
 }
+
 .boxx {
   border: 3px solid orange;
   width: 100px;
   height: 100px;
 }
+
 .boxx p {
   text-align: center;
   margin-top: 20px;
   font-weight: bold;
 }
+
 .slider {
   width: 100%;
   height: 400px;
   border: 2px solid black;
 }
+
 .know {
   display: flex;
   justify-content: center;
@@ -248,6 +282,7 @@
   border: 2px solid black;
   gap: 20px;
 }
+
 .know-box-left {
   background-image: url(./images/video-bg.jpg);
 
