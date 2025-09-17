@@ -75,6 +75,10 @@
   letter-spacing: 0.4rem;
 }
 
+.orange-text {
+  color: #F28123;
+}
+
 .sec-1 h1 {
   color: white;
   font-size: 80px;
@@ -154,12 +158,11 @@
   padding: 20px;
 }
 
-.product h1 {
-  margin: 20px 0;
-  color: orange;
-}
+
 
 .product p {
+  margin-block: 30px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -368,6 +371,7 @@ a.video-play-btn {
   margin-right: 10px;
   display: inline-block;
 }
+
 .shop {
   background-color: orange;
   padding: 10px 20px;
